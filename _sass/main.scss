@@ -1,0 +1,62 @@
+nav.navbar {
+	background-color: #2f2f2f;
+}
+
+body {
+	color: #ffffff;
+	background-color: #171717;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+div.footer-copyright {
+	background-color: #000000;
+}
+
+footer.page-footer {
+	background-color: #2f2f2f;
+}
+
+.tab a:visited, .tab a:link {
+	color: #ffffff;
+}
+
+.tab .current {
+	background-color: #3f3f3f;
+}
+
+.tab a:hover {
+	background-color: #39c62d;
+}
+
+a:link {
+	color: #39c62d;
+}
+
+a:visited {
+	color: #39c62d;
+}
+
+a:hover {
+	color: #b700f9;
+}
+
+p {
+	font-size: 16px;
+}
+
+.mediaCenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+::selection {
+	background: yellow;
+	color: black;
+}

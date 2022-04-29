@@ -1,0 +1,14 @@
+<nav class="navbar">
+	<div class="nav-wrapper container">
+		<a href="/"><img src="/assets/images/logo3.png" alt="Home" style="width:50px; margin-top: 0.3em"></img></a>
+		<ul class="right">
+			{% for item in site.data.navigation %}
+			<li class="tab">
+				<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+					{{ item.name }}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</nav>

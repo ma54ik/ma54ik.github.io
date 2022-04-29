@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% include header.html %}
+	</head>
+	<main>
+		<div class="row">
+			{% include navigation.html %}
+			<div class="container">
+				{{ content }}
+			</div>
+		</div>
+	</main>
+	<footer class="page-footer">
+		{% include footer.html %}
+	</footer>
+</html>
