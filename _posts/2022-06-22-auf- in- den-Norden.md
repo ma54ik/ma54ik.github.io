@@ -67,7 +67,7 @@ Im Gegenzug gab ich Matthias ein paar Tipps für seine Webseite, ein paar Euro f
 
 <img class="mediaCenter" src="/assets/images/garage.jpg" alt="garage" style="width:500px">
 
-Das Klischee der wortkragen Finnen trifft also nicht für jeden Finnen zu ;)
+Das Klischee der wortkragen Finnen trifft also nicht auf jeden Finnen zu ;)
 
 Nachdem ich direkt neben der Garage übernachten konnte, ging es auch schon nach Alta in Norwegen und die wilde Fahrt in Finnland lag hinter mir.
 Angesichts der schönen Landschaft wurde mir schnell klar, warum Norwegen ein so beliebtes Reiseziel ist.
@@ -91,7 +91,7 @@ Also fuhren wir per Anhalter aus Görlitz zum Wanderweg und beendeten unsere "Mi
 
 <img class="mediaCenter" src="/assets/images/northcape.jpg" alt="northcape" style="width:500px">
 
-Zum Schluss möchte ich mich für die vielen Glückwünsche und Nachrichten von allen bedanken und hoffe, dass es euch gut geht und der Text dieses mal nicht zu lag geworden ist.
+Zum Schluss möchte ich mich für die vielen Glückwünsche und Nachrichten von Allen bedanken und hoffe, dass es euch gut geht und der Text dieses mal nicht zu lang geworden ist.
 
 Beste Grüße und auf bald,  
 Maik
