@@ -1,6 +1,10 @@
 $(document).ready(function(){
-
 	M.AutoInit();
-	console.log("Hello!");
-
+	$('.carousel.carousel-slider').carousel(
+		{
+			fullWidth: true,
+			indicators: true,
+			numVisible: 3
+		}
+	);
 }); 
