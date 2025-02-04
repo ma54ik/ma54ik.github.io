@@ -9,7 +9,9 @@ github_username:  ma54ik
 # Build settings
 theme: minima
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
 
 # test collection
 collections:
