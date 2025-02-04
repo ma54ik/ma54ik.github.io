@@ -1,14 +1,1 @@
-{
-	"version": 3,
-	"file": "styles.css",
-	"sources": [
-		"styles.scss",
-		"_sass/main.scss"
-	],
-	"sourcesContent": [
-		"@import \"main\";\n",
-		"nav.navbar {\n\tbackground-color: #2f2f2f;\n}\n\nbody {\n\tcolor: #ffffff;\n\tbackground-color: #171717;\n\tdisplay: flex;\n\tmin-height: 100vh;\n\tflex-direction: column;\n}\n\nmain {\n\tflex: 1 0 auto;\n}\n\ndiv.footer-copyright {\n\tbackground-color: #000000;\n}\n\nfooter.page-footer {\n\tbackground-color: #2f2f2f;\n}\n\n.tab a:visited, .tab a:link {\n\tcolor: #ffffff;\n}\n\n.tab .current {\n\tbackground-color: #3f3f3f;\n}\n\n.tab a:hover {\n\tbackground-color: #39c62d;\n}\n\na:link {\n\tcolor: #39c62d;\n}\n\na:visited {\n\tcolor: #39c62d;\n}\n\na:hover {\n\tcolor: #b700f9;\n}\n\np {\n\tfont-size: 16px;\n}\n\n.mediaCenter {\n\tdisplay: block;\n\tmargin-left: auto;\n\tmargin-right: auto;\n}\n\n::selection {\n\tbackground: yellow;\n\tcolor: black;\n}\n"
-	],
-	"names": [],
-	"mappings": "ACAA,AAAA,GAAG,AAAA,OAAO,CAAC,EACV,gBAAgB,EAAE,OAAO,GACzB;;AAED,AAAA,IAAI,CAAC,EACJ,KAAK,EAAE,OAAO,EACd,gBAAgB,EAAE,OAAO,EACzB,OAAO,EAAE,IAAI,EACb,UAAU,EAAE,KAAK,EACjB,cAAc,EAAE,MAAM,GACtB;;AAED,AAAA,IAAI,CAAC,EACJ,IAAI,EAAE,QAAQ,GACd;;AAED,AAAA,GAAG,AAAA,iBAAiB,CAAC,EACpB,gBAAgB,EAAE,OAAO,GACzB;;AAED,AAAA,MAAM,AAAA,YAAY,CAAC,EAClB,gBAAgB,EAAE,OAAO,GACzB;;AAED,AAAA,IAAI,CAAC,CAAC,CAAC,OAAO,EAAE,IAAI,CAAC,CAAC,CAAC,IAAI,CAAC,EAC3B,KAAK,EAAE,OAAO,GACd;;AAED,AAAA,IAAI,CAAC,QAAQ,CAAC,EACb,gBAAgB,EAAE,OAAO,GACzB;;AAED,AAAA,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,EACZ,gBAAgB,EAAE,OAAO,GACzB;;AAED,AAAA,CAAC,CAAC,IAAI,CAAC,EACN,KAAK,EAAE,OAAO,GACd;;AAED,AAAA,CAAC,CAAC,OAAO,CAAC,EACT,KAAK,EAAE,OAAO,GACd;;AAED,AAAA,CAAC,CAAC,KAAK,CAAC,EACP,KAAK,EAAE,OAAO,GACd;;AAED,AAAA,CAAC,CAAC,EACD,SAAS,EAAE,IAAI,GACf;;AAED,AAAA,YAAY,CAAC,EACZ,OAAO,EAAE,KAAK,EACd,WAAW,EAAE,IAAI,EACjB,YAAY,EAAE,IAAI,GAClB;;EAEC,AAAF,SAAW,CAAC,EACX,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,KAAK,GACZ"
-}
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACC;;;AAGD;EACC;EACA;EACA;EACA;EACA;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;;;AAGD;EACC;EACA;EACA;;;AAGD;EACC;EACA","sourcesContent":["nav.navbar {\n\tbackground-color: #2f2f2f;\n}\n\nbody {\n\tcolor: #ffffff;\n\tbackground-color: #171717;\n\tdisplay: flex;\n\tmin-height: 100vh;\n\tflex-direction: column;\n}\n\nmain {\n\tflex: 1 0 auto;\n}\n\ndiv.footer-copyright {\n\tbackground-color: #000000;\n}\n\nfooter.page-footer {\n\tbackground-color: #2f2f2f;\n}\n\n.tab a:visited, .tab a:link {\n\tcolor: #ffffff;\n}\n\n.tab .current {\n\tbackground-color: #3f3f3f;\n}\n\n.tab a:hover {\n\tbackground-color: #39c62d;\n}\n\na:link {\n\tcolor: #39c62d;\n}\n\na:visited {\n\tcolor: #39c62d;\n}\n\na:hover {\n\tcolor: #b700f9;\n}\n\np {\n\tfont-size: 16px;\n}\n\n.mediaCenter {\n\tdisplay: block;\n\tmargin-left: auto;\n\tmargin-right: auto;\n}\n\n::selection {\n\tbackground: yellow;\n\tcolor: black;\n}\n"],"file":"styles.css"}
