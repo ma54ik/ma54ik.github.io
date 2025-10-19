@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <div class="row equal-height-row">
       <div class="col l6 s6">
-        <h3 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h3>
+        <h3 class="post-list-heading">{{ page.list_title | default: "Aktuelle Beiträge" }}</h3>
         <ul class="post-list">
           {%- for post in site.posts limit:3 -%}
           <li>
