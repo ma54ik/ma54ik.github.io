@@ -4,29 +4,36 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h2 class="page-heading">{{ page.title }}</h2>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    <div class="row equal-height-row">
+      <div class="col l6 s6">
+        <h3 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h3>
+        <ul class="post-list">
+          {%- for post in site.posts limit:3 -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h4 style="margin-top: 0">
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h4>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="col l6 s6 quote-container">
+	<p class="quote"> “You are scared of dying - and, tell me, is the kind of life you lead really any different from being dead?” ― Seneca</p>
+      </div>
+    </div>
   {%- endif -%}
 
 </div>

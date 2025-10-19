@@ -1,5 +1,9 @@
 ---
 layout: post
+author: Maik
+# title: Der Kompass zeigt schon wieder nach Süden
+excerpt: Hei vom nördlichen Ende Europas!
+tag: Reise
 ---
 Hei vom nördlichen Ende Europas!
 
