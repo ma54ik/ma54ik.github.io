@@ -61,4 +61,29 @@ p {
   color: black;
 }
 
+.equal-height-row {
+  display: flex;
+  flex-wrap: wrap; /* Ensure responsiveness */
+}
+
+.equal-height-row > .col {
+  display: flex;
+  flex-direction: column; /* So inner content stacks normally */
+}
+
+.quote-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.quote {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.8em;
+  color: #444;
+  margin: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */

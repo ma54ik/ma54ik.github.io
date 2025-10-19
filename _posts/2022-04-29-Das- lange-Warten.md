@@ -1,5 +1,9 @@
 ---
 layout: post
+author: Maik
+# title: Der Kompass zeigt schon wieder nach Süden
+excerpt: Ein herzliches Moinmoin aus dem digitalen Raum liebe Sportsfreunde!
+tag: Reise
 ---
 Ein herzliches Moinmoin aus dem digitalen Raum liebe Sportsfreunde!
 

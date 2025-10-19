@@ -3,6 +3,7 @@ layout: post
 author: Maik
 title: Der Kompass zeigt schon wieder nach Süden
 excerpt: Der Weg ist und bleibt das Ziel
+tag: Reise
 ---
 Hei werter Leser!
 
