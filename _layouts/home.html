@@ -11,7 +11,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <div class="row equal-height-row">
-      <div class="col l6 s6">
+      <div class="col l6 s12">
         <h3 class="post-list-heading">{{ page.list_title | default: "Aktuelle Beiträge" }}</h3>
         <ul class="post-list">
           {%- for post in site.posts limit:3 -%}
@@ -30,7 +30,7 @@ layout: default
           {%- endfor -%}
         </ul>
       </div>
-      <div class="col l6 s6 quote-container">
+      <div class="col l6 s12 quote-container">
 	<p class="quote"> “You are scared of dying - and, tell me, is the kind of life you lead really any different from being dead?” ― Seneca</p>
       </div>
     </div>
